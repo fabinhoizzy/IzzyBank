@@ -2,7 +2,10 @@
 
 namespace IzzyBank\Test;
 
-class ContaSalarioTest
+use PHPUnit\Framework\TestCase;
+
+class ContaSalarioTest extends TestCase
 {
+
 
 }

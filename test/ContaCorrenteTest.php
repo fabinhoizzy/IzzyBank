@@ -2,12 +2,17 @@
 
 namespace IzzyBank\Test;
 
-use IzzyBank\Conta;
+use IzzyBank\ContaCorrente;
 use PHPUnit\Framework\TestCase;
 
-class ContaTest extends TestCase {
+class ContaCorrenteTest extends TestCase {
 
-    public function testVerificaQualTipoDeConta() {
+    public function testVerificaSeEContaCorrente() {
+
+        $contaCorrente = 'Conta Corrente';
+
+        $conta = new ContaCorrente($contaCorrente);
+        static::assertTrue('Conta Corrente', $contaCorrente);
 
 
     }

@@ -2,7 +2,9 @@
 
 namespace IzzyBank\Test;
 
-class ContaPoupancaTest
+use PHPUnit\Framework\TestCase;
+
+class ContaPoupancaTest extends TestCase
 {
 
 }
